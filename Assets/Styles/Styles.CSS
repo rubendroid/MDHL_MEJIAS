@@ -1,0 +1,158 @@
+* {
+    margin: 0; /*Distancia entre una caja y otra. top, right, botto, left*/
+    padding: 0; /*Espacio entre el contenido y el límite de la caja. top, right, botto, left*/
+    box-sizing: border-box;
+    font-family: sans-serif;
+    }
+    
+    body {
+        background-color: darkslategrey;
+        color: ghostwhite;
+    }
+    
+        /*Header*/
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+        background-color: rgba(218, 4, 4, 0.916);
+    }
+    
+    h1 {
+        justify-content: flex-start;
+        font-size: 3.5rem;
+        color: #fee201;
+        text-shadow: 2px 0 0 #e44f37, -2px 0 0 #e44f37, 0 -2px  0 #e44f37, 0 2px 0 #e44f37;
+    }
+    
+    nav {
+        justify-content: flex-end;
+        text-align: center;
+        padding: 0;
+        z-index: 1;
+        align-self: self-end;
+        align-content: stretch;
+    }
+    
+    nav a {
+        color: white;
+        border-radius: 2rem;
+        padding: 5px 6px;
+        background-color: darkslategrey;
+        border: 3px solid cadetblue;
+        text-decoration: none;
+        font-size: 1.5rem;
+    }
+    
+    a[href="#"] {
+            background-color: cadetblue;
+    }
+    
+    a:hover{
+        color: gray;
+        background-color: darkgrey;
+    }
+        
+    a:active {       /* cuando le hago click*/
+        background-color: darkslategray;
+    }
+    
+    #banner {
+        display: flex;
+        width: 100vw;
+        height: 400px;
+        }
+    
+    
+    h2 {
+        font-size: 3rem;
+        color: #fee201;
+        text-shadow: 2px 0 0 #e44f37, -2px 0 0 #e44f37, 0 -2px  0 #e44f37, 0 2px 0 #e44f37;
+        text-align: center;
+        background-color: rgba(218, 4, 4, 0.916);
+     /*   align-self: flex-end;*/
+    }
+    
+    .pindex {
+      text-align: center;
+    }
+    
+    #section1 {
+        display: flex;
+        justify-content: flex-start; 
+        align-content: stretch;
+        padding: 3px;
+    }
+    
+    #logo{
+      height:300px;
+      width: 300px;
+      align-self: flex-start;
+    }
+    
+    #img2{
+        height: 600px;
+        width: 600px;
+        justify-content: center;
+        border-radius: 10%;
+    }
+    
+    
+    #section2 {
+        align-self: center;
+        font-size: 1.5rem;
+        margin: 20px;
+        background-color: cadetblue;
+        text-align: justify;
+        text-shadow: 2px 0 0 cadetblue, -2px 0 0 cadetblue, 0 -2px  0 cadetblue, 0 2px 0 cadetblue;
+        border-radius: 1rem 0 1rem 0;
+        padding: 5px;
+    }
+    
+    /** ************   segunda parte ******************  */
+    
+    h3 {
+        text-align: center;
+        font-size: 2rem;
+    }
+    
+    h4 {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    
+    .pRules {
+    text-align: center;
+    }
+    
+    .tabla {
+        display: flex;
+        justify-content: center; 
+        padding: 3px;
+    }
+    
+    #listO{
+        padding-left: 25px;
+    }
+    
+    #listU{
+        padding-left: 30px
+    }
+    
+    table {
+        background-color: rgba(34, 194, 151, 0.741);
+        padding: 10px;
+        text-align: center;
+    }
+    
+    th{
+        background-color: black;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    td{
+        background-color: gray;
+        padding: 10px;
+        text-align: center;
+    }
