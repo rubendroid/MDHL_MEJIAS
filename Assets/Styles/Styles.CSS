@@ -96,8 +96,7 @@
         justify-content: center;
         border-radius: 10%;
     }
-    
-    
+        
     #section2 {
         align-self: center;
         font-size: 1.5rem;
@@ -140,8 +139,8 @@
     }
     
     table {
-        background-color: rgba(34, 194, 151, 0.741);
-        padding: 10px;
+        background-color: cadetblue;
+        padding: 5px;
         text-align: center;
     }
     
