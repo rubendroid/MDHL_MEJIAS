@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="shortcut icon" href="./assets/images/Logoico.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/Styles/Styles.CSS">
+</head>
+
+<body>
+    <h1>Registration Form</h1>
+
+    <form action="./Show_data.html" method="get">
+
+            <fieldset>
+                <legend>Personal information</legend>
+                    <label>
+                        <label>
+                        Player's First name:
+                        <input required  type="text" name="First_name" id=""> <span style="color: red">*</span>
+                        </label>
+
+                        <label>
+                        Last name:
+                        <input required type="text" name="Last_name" id=""> <span style="color: red">*</span>
+                        </label> 
+
+                        <label>
+                        Street address:
+                        <input type="text" name="Street_address" id="">
+                        </label> 
+
+                        <label>
+                        Zip code:
+                        <input type="number" name="Zip_code" id="">
+                        </label> 
+
+                        <label>
+                        Birth date (mm/dd/yyyy):
+                        <input required type="date" name="Birth_date"> <span style="color: red">*</span>
+                        </label> 
+
+                        <label>
+                        Gender:
+                            Female
+                            <input required type="radio" name="Gender" value="Female"> <span style="color: red">*</span>
+                            Male
+                            <input required type="radio" name="Gender" value="Male"> <span style="color: red">*</span>
+                        </label> 
+                            
+                        <label>
+                        Grade:
+                            <select><
+                                <option disabled selected>select</option>
+                                <option value="Pre-School">Pre-School</option>
+                                <option value="1st">1st</option>
+                                <option value="2nd">2nd</option>
+                                <option value="3rd">3rd</option>
+                                <option value="4th">4th</option>
+                                <option value="5th">5th</option>
+                            </select> <span style="color: red">*</span>
+                        </label> 
+                    </label>
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Which elementary school do you live near?</legend>
+
+                            <label for="select">Clossest_School</label>
+                            <select name="Clossest_School" id="select">
+                            
+                            <option disabled selected>select</option>
+                            <option value="AJ Katzenmaier">AJ Katzenmaier</option>
+                            <option value="Greenbay">Greenbay</option>
+                            <option value="Howard A Yeager">Howard A Yeager</option>
+                            <option value="Marjorie P Hart">Marjorie P Hart</option>
+                            <option value="North Elementary">North Elementary</option>
+                            <option value="South Elementary">South Elementary</option>
+                        </select>
+            </fieldset>
+
+
+            <fieldset>
+                <legend>What position(s) do you normally play? (check all that apply)</legend>
+                <label>
+                    <label>
+                    Forward
+                    <input type="checkbox" name="Gender" value="Forward">
+                    </label>
+                    <label>
+                    Defense
+                    <input type="checkbox" name="Gender" value="Defense">
+                    </label>
+                    <label>
+                    Midfield
+                    <input type="checkbox" name="Gender" value="Midfield">
+                    </label>
+                    <label>
+                    Goalkeeper
+                    <input type="checkbox" name="Gender" value="Goalkeeper">
+                    </label>
+                </label>
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Uniform Size</legend>
+                <label>                  
+                    <label>
+                        Youth Smal
+                        <input type="radio" name="Size" value="Youth Smal">
+                    </label>
+                    <label>
+                        Youth Medium
+                        <input type="radio" name="Size" value="Youth Medium">
+                    </label>
+                    <label>
+                        Youth Large
+                        <input type="radio" name="Size" value="Youth Large">
+                    </label>
+                    <label>
+                        Smal
+                        <input type="radio" name="Size" value="Smal">
+                    </label>
+                    <label>
+                        Medium
+                        <input type="radio" name="Size" value="Medium">
+                    </label>
+                    <label>
+                        Large
+                        <input type="radio" name="Size" value="Large">
+                    </label>
+                    <label>
+                        Extra-Large
+                        <input type="radio" name="Size" value="Extra-Large">
+                    </label>  
+                </label>
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Permission to play</legend>
+                <label>
+                    <p> I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with hockey and in consideration for the "League" accepting the registrant for its hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant's participation in the programand/orbeing transported to or from MDHL sponsored activities, which transportation By signing below, I agree and authorize the above. In addition, By entering your name below, I also acknowledge that I have read the cancellation policy and agree to its terms.</p>
+                        Parent/GuardianSignature:
+                        <input required type="text" name="Parent_or_GuardianSignature" id=""> <span style="color: red">*</span>
+                        Date
+                        <input required type="datetime-local" name="Date"> <span style="color: red">*</span>
+                </label>
+            </fieldset>
+
+            <input type="submit" value="submit">
+
+    </form>
+
+</body>
+</html>
