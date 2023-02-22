@@ -5,44 +5,76 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mighty Ducks Hockey League</title>
-    <link rel="shortcut icon" href="./assets/images/Logoico.png" type="image/x-icon">
-    <link rel="stylesheet" href="./assets/Styles/Styles.CSS">
+    <link rel="stylesheet" href="./Assets/estilos/style.css">
+    <link rel="shortcut icon" href="./Assets/images/Logoico.png" type="image/x-icon">
 </head>
 
+
 <body>
-    <header> 
-      <h1>Mighty Ducks Hockey League</h1>
-        <nav> 
-          <a href="#">Home</a>
-          <a href="./About_MDHL.html">About MDHL</a>
-          <a href="./Game_info.html">Game info</a>          
-          <a href="./Contact_MDHL.html">Contact MDHL</a>
-          <a href="./Rules.html">Rules</a>
-        </nav>
+    <!--CONTENEDOR MAIN-->
+
+            <!-- CONTENEDOR PADRE DEL HEADER -->
+    <header>
+
+                <!-- TITULO ENCABEZADO -->
+            <h1>Mighty Ducks Hockey League</h1>
+
+            <!-- BOTONES DE NAV -->
+            <nav>
+                <a href="#">Home</a>
+                <a href="./About_MDHL.html">About MDHL</a>
+                <a href="./Game_info.html">Game info</a>
+                <a href="./Rules.html">Rules</a>
+                <a href="./Contact_MDHL.html">Contact MDHL</a>
+                <a href="./Registration.html">Registration</a>
+            </nav>
+
     </header>
 
-    <img id="banner" src="./assets/images/design1_image1.jpg" alt="design 1">
+            <!-- DIV PARA EL BANNER -->
+            <div class="banner"><!--puede ser con background image ; ó ; con la imagen como elemento --></div>
 
-    <main> 
-        <h2>Upcoming Events</h2>
+    <main>
+        <!--TITULO DEL CUERPO -->
+        <h2>Upcoming events</h2>
 
-        <section id="section1">
-          <img id="logo" src="./assets/images/Logo_Mighty_ducks-01.png" alt="logo Mighty Ducks Hockey League">
+        <!--CONTENEDOR SECTION GENERAL-->
+        <div class="section">
 
-          <img id="img2" src="./assets/images/hockey_1.jpg" alt="hockey_1">
+            <!--CONTENEDOR ASIDE-->
+            <aside>
+                <img class="logo" src="./Assets/images/Logo_Mighty_ducks-01.png" alt="logo">
+                <img class="hockey_1" src="./Assets/images/hockey_1.jpg" alt="hockey_1">
+            </aside>
 
-          <section id="section2"> 
-              <div><h3> August 4 </h3>
-                <p class="pindex">MDSL Fundraiser</p></div>
+                        <!--Contenedor Section texto-->
+                    <div class="section1">
 
-              <div><h3> August 16</h3>
-                <p class="pindex">Season Kick-off: Meet the Teams</p></div>
+                        <article class="article1">
+                            <h3> <strong>August 4</strong> </h3>
+                                <p>MDSL Fundraiser.</p>
+                        </article>
 
-              <div><h3> September 1 </h3>
-                <p class="pindex">First Game of the Season (Check Game Schedule for details)</p></div>
-          </section>
-       </section>
-                
+                        <article class="article2">
+                            <h3> <strong>August 16</strong> </h3>
+                                <p> Season Kick-off: Meet the Teams.</p>
+                        </article>
+
+                        <article class="article3">
+                            <h3> <strong>September 1</strong> </h3>
+                                <p> First Game of the Season (Check Game Schedule for details).</p>
+                        </article>
+
+                    </div>
+        
+        </div>
+
     </main>
-</body>
-<footer> </footer>
+
+            <!--CONTENEDOR FOOTER-->
+    <footer> <p><strong>mdhl@chihockey.org </strong></p> </footer>
+
+</body>    
+
+    
+</html>
