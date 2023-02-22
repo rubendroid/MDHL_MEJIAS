@@ -5,61 +5,125 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rules</title>
-    <link rel="shortcut icon" href="./assets/images/Logoico.png" type="image/x-icon">
-    <link rel="stylesheet" href="./assets/Styles/Styles.CSS">
+    <link rel="stylesheet" href="./Assets/estilos/style.css">
+    <link rel="shortcut icon" href="./Assets/images/LogoChico.png" type="image/x-icon">
 </head>
 
-<body>
- <header>
-    <h1>Mighty Ducks Hockey League</h1>
-     <nav> 
-        <a href="./index.html">Home</a>
-        <a href="./About_MDHL.html">About MDHL</a>
-        <a href="./Game_info.html">Game info</a>          
-        <a href="./Contact_MDHL.html">Contact MDHL</a>
-        <a href="#">Rules</a>
-     </nav>
- </header>
 
- <img id="banner" src="./assets/images/design1_image1.jpg" alt="design 1">
+<body>
+    <!--CONTENEDOR MAIN-->
+
+            <!-- CONTENEDOR PADRE DEL HEADER -->
+    <header>
+
+                <!-- TITULO ENCABEZADO -->
+            <h1>Mighty Ducks Hockey League</h1>
+
+            <!-- BOTONES DE NAV -->
+            <nav>
+                <a href="./index.html">Home</a>
+                <a href="./About_MDHL.html">About MDHL</a>
+                <a href="./Game_info.html">Game info</a>
+                <a href="#">Rules</a>
+                <a href="./Contact_MDHL.html">Contact MDHL</a>
+                <a href="./Registration.html">Registration</a>
+            </nav>
+
+    </header>
+
+            <!-- DIV PARA EL BANNER -->
+            <div class="banner"><!--puede ser con background image ; ó ; con la imagen como elemento --></div>
 
     <main>
-        <h2>Rules</h2>
+        <!--TITULO DEL CUERPO -->
+        <h2>Rules of play & Policies</h2>
 
-        <section id="section1">
-            <img id="logo" src="./assets/images/Logo_Mighty_ducks-01.png" alt="logo Mighty Ducks Hockey League">
-                
-        <section id="section2">
+        <!--CONTENEDOR SECTION GENERAL-->
+        <div class="section">
 
-            <h3>RULES OF PLAY & POLICIES</h3>
-            <p class="pRules">IHF rules shall govern MDHL play except as modified herein.</p>
-        
-            <h3>SPORTSMANSHIP</h3>
-            <p>The common interest that members of the Association share is to inspire youth to practice the ideals of sportsmanship and fair play. Any player, coach, team, parent, spectator, administrator or referee whose behavior detracts from this purpose is subject to disciplinary action regardless of technical hockey background, expertise, accomplishments or standing.</p>
-        
-            <h3>IHF FIELD REGULATIONS</h3>
-            <ol id="listO">
-                <li>DIMENSIONS. IHF Law 1 provides for flexible external field dimensions within a given maximum and minimum width and length. These dimensions should be adhered to for all fields used by teams under 12 and older</li>
-                <li>COMPETITION FIELDS. Fields used within the competition program must be a minimum of 100 x 60 yards.Leagues, districts or associations participating in the state competition program that are unable to provide a field that meets these minimum requirements must advise the State Competition Board which will assign its Fields Committee to inspect the field and recommend to the Board whether or not a waiver of the minimum dimensions should be granted. Teams from leagues, districts or associations that are unable to provide an acceptable field may be required to play all their games away.</li>
-                <li>FIELDS USED BY YOUNG AGE GROUPS.
-                        <Ul id="listU">
-                            <li>a. U-6 play on a field approximately 20 X 40 yards with no penalty areas. Fields for older age groups should be progressively larger.</li>
-                            <li>b. U-8 plays on a field 40-50 yards in length and 20-30 yards width.</li>
-                            <li>c. U-10 play on a field 70-80 yards in length and 40-50 yards in width.</li>
-                            <li>d. In addition, fields used by young age groups may have their internal dimensions and size of goal similarly modified.</li>
-                        </Ul>
-                    </li>
-            </ol>
-        
-            <h3>ALL-PLAY</h3>
-            <ul id="listU">
-                <li>All-play means that every recreation player on every team shall play atleast fifty percent of each game. Coaches in the competition program are encouraged to play their players 50% of each game.</li>
-                <li>A Coach shall be permitted to not play a player 50% of each game under special circumstances, e.g., unexcused absences from practice and/or games, ungentlemanly conduct at practice and/or games, and injuries.</li>
-            </ul>
+            <!--CONTENEDOR ASIDE-->
+            <aside>
+                <img class="logo" src="./Assets/images/Logo_Mighty_ducks-01.png" alt="logo">
+                <img class="hockey_1" src="./Assets/images/hockey_1.jpg" alt="hockey_1">
+            </aside>
 
-            </section>
-        </section>
+                        <!--Contenedor Section texto-->
+                    <div class="section1">
+
+                            <article class="article1">
+                                <h3>SPORTSMANSHIP</h3>
+                                    <p>The common interest that members of the Association share is to inspire
+                                        youth to practice the ideals of sportsmanship and fair play. Any player, coach,
+                                        team, parent, spectator, administrator or referee whose behavior detracts from
+                                        this purpose is subject to disciplinary action regardless of technical hockey
+                                        background, expertise, accomplishments or standing.</p>
+                            </article>
+                            
+                            <article class="article2-lista-rules">
+                                <div class="titulo-article2-lista-rules"><h3>IHF FIELD REGULATIONS</h3></div>
+                                    <ol class="lista">
+            
+                                        <li>
+                                            <h4 class="subtitulo-parrafo-lista-rules">DIMENSIONS</h4>
+                                            <p>IHF Law 1 provides for flexible external field
+                                                dimensions within
+                                                a given maximum and minimum width and length. These dimensions should be
+                                                adhered to for all fields used by teams under 12 and older.</p>
+                                        </li>
+                                        <li>
+                                            <h4 class="subtitulo-parrafo-lista-rules">COMPETITION FIELDS.</h4>
+                                            <p> Fields used within the competition
+                                                program must be
+                                                a minimum of 100 x 60 yards.Leagues, districts or associations participating in
+                                                the state competition program that are unable to provide a field that meets these
+                                                minimum requirements must advise the State Competition Board which will
+                                                assign its Fields Committee to inspect the field and recommend to the Board
+                                                whether or not a waiver of the minimum dimensions should be granted. Teams
+                                                from leagues, districts or associations that are unable to provide an acceptable
+                                                field may be required to play all their games away.</p>
+                                        </li>
+                                        <li>
+                                            <h4 class="subtitulo-parrafo-lista-rules"> FIELDS USED BY YOUNG AGE GROUPS.</h4>
+                                            <ol class="sub-lista-ordenada">
+                                                <li> U-6 play on a field approximately 20 X 40 yards with no penalty areas. Fields
+                                                    for older age groups should be progressively larger.</li>
+                                                <li>U-8 plays on a field 40-50 yards in length and 20-30 yards width.</li>
+                                                <li> U-10 play on a field 70-80 yards in length and 40-50 yards in width.</li>
+                                                <li>In addition, fields used by young age groups may have their internal
+                                                    dimensions and size of goal similarly modified.</li>
+                                            </ol>
+                                        </li>
+                                    </ol>
+                            </article>
+
+                            <article class="article3">
+                                
+                                <h3>ALL-PLAY</h3>
+                                    <ul class="all-play-list">
+                                        <li>
+                                            All-play means that every recreation player on every team shall play atleast
+                                            fifty percent of each game. Coaches in the competition program are encouraged
+                                            to play their players 50% of each game.
+                                        </li>
+                                        <li>
+                                            A Coach shall be permitted to not play a player 50% of each game
+                                            under special circumstances, e.g., unexcused absences from practice
+                                            and/or games, and injuries.
+                                        </li>
+                                    </ul>
+                            </article>
+
+                    </div>
+        
+        </div>
+
     </main>
+
+        <!--CONTENEDOR FOOTER-->
+    <footer>
+        <p><strong>mdhl@chihockey.org </strong></p>
+    </footer>
+
 </body>
-<footer></footer>
+
 </html>

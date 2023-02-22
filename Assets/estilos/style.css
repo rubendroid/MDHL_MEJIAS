@@ -1,0 +1,386 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: rgb(70, 70, 70);
+}
+
+    /* CONTENEDOR MAIN */
+main {
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+}
+
+
+    /* CONTENEDOR PADRE DEL HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #78a2cc;
+    padding-left: 5px;
+    flex-wrap: wrap;
+}
+
+
+    /* TITULO ENCABEZADO */
+h1 {
+    justify-content: space-between;
+    font-size: 3rem;
+    color: white;
+    font-weight: bolder;
+    /* text-shadow: 2px 0 0 white, -2px 0 0 white, 0 -4px  0 white, 0 4px 0 white; */
+}
+
+
+    /* BOTONES DE NAV */
+nav {
+    /* display: flex; */
+    position: relative;
+    /* align-self: flex-end; */;
+    right: 0;
+    top: 3rem;
+
+}
+
+nav a {
+    color: white;
+    padding: 0px 5px 0px 5px;
+    background-color: #0031fd;
+    border: 5px solid rgb(10, 10, 10);
+    border-radius: 15%;
+    opacity: 70%;
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-align: center;
+    z-index: 1;
+}
+
+a[href="#"] {
+    background-color: darkgrey;
+}
+
+a:hover {
+    color: black;
+    background-color: #78a2cc;
+    opacity: 60%;
+}
+
+a:active {
+    background-color: gray;
+    border: 5px solid gray;
+}
+
+
+    /* DIV PARA EL BANNER */
+.banner {
+    background-image: url(../images/design2_image1.jpg);
+    background-size: cover;
+    background-position-y: 40%;
+    height: 45vh;
+}
+
+
+    /* TITULO DEL CUERPO */
+h2 {
+    background-color: #a2cadf;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #0031fd;
+    /*text-shadow: 2px 0 0 #e44f37, -2px 0 0 #e44f37, 0 -2px  0 #e44f37, 0 2px 0 #e44f37; */
+    text-align: center;
+}
+
+
+    /* CONTENEDOR SECTION GENERAL */
+.section {
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* height: 50vh; */
+    justify-content: space-around;
+    /* width: 100%; */
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+    color: white;
+    width: 70%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.article1 {
+    text-align: center;
+    border: 5px double white;
+    border-radius: 30%;
+    padding: 10px 10px 10px 10px;
+    margin: 10PX 0 5px 0;
+}
+
+.article2 {
+    text-align: center;
+    border: 5px double white;
+    border-radius: 30%;
+    padding: 10px 10px 10px 10px;
+    margin: 5px 0 5px 0;
+}
+
+.article3 {
+    text-align: center;
+    border: 5px double white;
+    border-radius: 30%;
+    padding: 10px 10px 10px 10px;
+    margin: 5px 0 10px 0;
+}
+
+
+
+/* CONTENEDOR RULES */
+
+.article2-lista-rules {
+    text-align: justify;
+    border: 5px double white;
+    border-radius: 15%;
+    padding: 10px 10px 10px 30px;
+}
+
+.titulo-article2-lista-rules {
+    text-align: center;
+}
+
+.subtitulo-parrafo-lista-rules {
+    text-align: left;
+}
+
+.sub-lista-ordenada {
+    padding-left: 40px;
+}
+
+.all-play-list {
+    padding: 0 0 0 15px;
+}
+
+
+
+/* CONTENEDOR REGISTRATION */
+
+.section1-formulario {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: white;
+    width: 65%;
+}
+
+fieldset {
+    padding: 5px 5px 5px 5px;
+    margin: 20px 10px 0px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+fieldset legend {
+    padding: 0 5px 0 10px;
+    font-weight: bold;
+    font-size: larger;
+    text-align: end;
+}
+
+.first_name {
+    margin: 0 5px 0 5px;
+}
+
+.last_name {
+    margin: 0 5px 0 5px;
+}
+
+.birthday {
+    margin: 0 5px 0 5px;
+}
+
+.gender {
+    margin: 0 5px 0 10px;
+}
+
+.residencia {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.adress {
+    margin: 0 5px 0 5px;
+}
+.zip_code {
+    margin: 0 5px 0 5px;
+}
+
+.school {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.lista_escuela {
+    margin: 0 5px 0 5px;
+}
+
+grade {
+    margin: 0 5px 0 5px;
+}
+
+.posicion-juego {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.uniforme {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.permission {
+    text-align: justify;
+}
+
+.representante {
+    margin: 0 5px 0 5px;
+}
+
+.fecha-de-firma {
+    margin: 0 5px 0 5px;
+}
+
+.submit {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 100px 10px 0;
+}
+
+.submit button {
+    font-size: large;
+    padding: 5px 5px;
+    border: 7px solid rgb(10, 10, 10);
+    background-color: #0031fd;
+    opacity: 80%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    color: white;
+    border-radius: 15%;
+    cursor: pointer;
+}
+
+.submit button:hover {
+    transform: scale(1.1);
+    transition: all;
+}
+
+
+    /* CONTENEDOR ASIDE */
+
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 35%;
+}
+
+.logo {
+    align-self: center;
+    height: 250px;
+    width: 200px;
+    padding-top: 5px;
+}
+
+.hockey_1 {
+    align-self: center;
+    height: 400px; 
+    width: 300px;
+    padding-bottom: 5px;
+}
+
+.hockey_2 {
+    align-self: center;
+    height: 400px; 
+    width: 300px;
+    padding-bottom: 5px;
+}
+
+.hockey_3 {
+    align-self: center;
+    height: 400px; 
+    width: 300px;
+    padding-bottom: 5px;
+}
+
+
+
+    /* TABLA */
+
+.article1-tabla-game-info {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+.h3tabla {
+    text-align: center;
+    padding-top: 15px;
+}
+
+table {
+    background-color: #a2cadf;
+    margin: 15px 5px 5px 5px;
+    padding: 5px;
+}
+
+th {
+    background-color: rgb(110, 110, 110);
+    color: white;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
+
+td {
+    background-color: #78a2cc;
+    padding: 15px 15px 15px 15px;
+    text-align: center;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px 0 5px 0;
+}
+
+.facility-type {
+    text-align: justify;
+}
+
+.direct-questions {
+    text-align: justify;
+}
+
+.contacto {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+    /* CONTENEDOR FOOTER */
+    
+    footer {
+        background-color: #78a2cc;
+        text-align: center;
+    }
